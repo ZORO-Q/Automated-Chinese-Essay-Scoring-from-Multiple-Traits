@@ -1,0 +1,4 @@
+/data/score_ult.json 为标注的等级
+/data/cv_folds.txt 为分折依据
+/data/data.json 为原始数据
+traits_score 中的/data/al_embedding.txt 即将数据每一段每一句使用xlnet编码，取最后一个词作为句子表示。最终得到（1220，20，20，768），即假设一篇文章最多20段，一段话最多20句，多则截断，少则pad
